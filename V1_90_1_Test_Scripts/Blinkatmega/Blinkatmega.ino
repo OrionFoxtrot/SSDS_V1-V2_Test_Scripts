@@ -21,37 +21,27 @@
 
   https://www.arduino.cc/en/Tutorial/BuiltInExamples/Blink
 */
-#include <SoftwareSerial.h>
-
-//#define rxPin PC1
-//#define txPin PC0
-
-#define rxPin PB6
-#define txPin PB7
-
-SoftwareSerial soft_tx_rx =  SoftwareSerial(rxPin, txPin);
+int z = 8;
 
 
+//8 for v2
+//9 for my breadkouts + alpha
 // the setup function runs once when you press reset or power the board
 void setup() {
-    pinMode(rxPin, INPUT);
-    pinMode(txPin, OUTPUT);
-
-    soft_tx_rx.begin(9600);
-  
   // initialize digital pin LED_BUILTIN as an output.
-  pinMode(PA9, OUTPUT);
-  
+  pinMode(z, OUTPUT);
+  Serial.begin(115200);
 }
-int counter = 0;
+int c = 0;
 // the loop function runs over and over again forever
 void loop() {
-  counter ++;
-  soft_tx_rx.print("hello world counter k:");
-  soft_tx_rx.println(counter);
-
-  digitalWrite(PA9, HIGH);  // turn the LED on (HIGH is the voltage level)
-  delay(2000);                      // wait for a second
-  digitalWrite(PA9, LOW);   // turn the LED off by making the voltage LOW
-  delay(2000);                      // wait for a second
+  digitalWrite(z, HIGH);  // turn the LED on (HIGH is the voltage level)
+  // /**
+  delay(1000);                      // wait for a second
+  Serial.print("hello world test counter ");
+  Serial.println(c);
+  digitalWrite(z, LOW);   // turn the LED off by making the voltage LOW
+  delay(1000);                      // wait for a second
+  c++;
+  // **/
 }
