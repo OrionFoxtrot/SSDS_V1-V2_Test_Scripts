@@ -24,25 +24,17 @@ STM32WLx radio = new STM32WLx_Module();
 // NOTE: other boards may be different!
 //       Some boards may not have either LP or HP.
 //       For those, do not set the LP/HP entry in the table.
-static const uint32_t rfswitch_pins[] =
-                         {PC_3,  PC_4,  PC_5, RADIOLIB_NC, RADIOLIB_NC};
 
+static const uint32_t rfswitch_pins[] = {PA4, PA5, RADIOLIB_NC, RADIOLIB_NC, RADIOLIB_NC};
 
 static const Module::RfSwitchMode_t rfswitch_table[] = {
-  {STM32WLx::MODE_IDLE,  {LOW,  LOW,  LOW}},
-  {STM32WLx::MODE_RX,    {HIGH, HIGH, LOW}},
-  {STM32WLx::MODE_TX_LP, {HIGH, HIGH, HIGH}},
-  {STM32WLx::MODE_TX_HP, {HIGH, LOW,  HIGH}},
-  END_OF_MODE_TABLE,
-};
-/*
-static const Module::RfSwitchMode_t rfswitch_table[] = {
-  {STM32WLx::MODE_IDLE,  {LOW, LOW}},
+  {STM32WLx::MODE_IDLE,  {LOW,  LOW}},
   {STM32WLx::MODE_RX,    {HIGH, LOW}},
-  {STM32WLx::MODE_TX_HP, {LOW, HIGH}},
+  //{STM32WLx::MODE_TX_HP, {LOW, HIGH}},  // for LoRa-E5 mini
+  {STM32WLx::MODE_TX_LP, {HIGH, HIGH}},   // for LoRa-E5-LE mini  
   END_OF_MODE_TABLE,
 };
-*/
+
 
 
 void setup() {
@@ -59,7 +51,7 @@ void setup() {
   // initialize STM32WL with default settings, except frequency
   Print_tx_rx.print(F("[STM32WL] Initializing ... "));
   int state = radio.begin(915.0);
-  radio.setOutputPower(14);
+  radio.setOutputPower(20);
   if (state == RADIOLIB_ERR_NONE) {
     Print_tx_rx.println(F("success!"));
   } else {
@@ -129,4 +121,36 @@ void loop() {
   digitalWrite(PA9, LOW);   // turn the LED off by making the voltage LOW
   delay(1000);
 }
+
+/* original bryan:
+static const uint32_t rfswitch_pins[] =
+                         {PC_3,  PC_4,  PC_5, RADIOLIB_NC, RADIOLIB_NC};
+
+
+static const Module::RfSwitchMode_t rfswitch_table[] = {
+  {STM32WLx::MODE_IDLE,  {LOW,  LOW,  LOW}},
+  {STM32WLx::MODE_RX,    {HIGH, HIGH, LOW}},
+  {STM32WLx::MODE_TX_LP, {HIGH, HIGH, HIGH}},
+  {STM32WLx::MODE_TX_HP, {HIGH, LOW,  HIGH}},
+  END_OF_MODE_TABLE,
+};
+*/
+
+/* internet notes:
+static const Module::RfSwitchMode_t rfswitch_table[] = {
+  {STM32WLx::MODE_IDLE,  {LOW, LOW}},
+  {STM32WLx::MODE_RX,    {HIGH, LOW}},
+  {STM32WLx::MODE_TX_HP, {LOW, HIGH}},
+  END_OF_MODE_TABLE,
+};
+STM32WLx radio = new STM32WLx_Module();
+static const uint32_t rfswitch_pins[] = {PA4, PA5, RADIOLIB_NC, RADIOLIB_NC, RADIOLIB_NC};
+static const Module::RfSwitchMode_t rfswitch_table[] = {
+  {STM32WLx::MODE_IDLE,  {LOW,  LOW}},
+  {STM32WLx::MODE_RX,    {HIGH, LOW}},
+//  {STM32WLx::MODE_TX_HP, {LOW, HIGH}},  // for LoRa-E5 mini
+  {STM32WLx::MODE_TX_LP, {HIGH, HIGH}},   // for LoRa-E5-LE mini  
+  END_OF_MODE_TABLE,
+};
+*/
 
