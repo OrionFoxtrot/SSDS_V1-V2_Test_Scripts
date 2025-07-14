@@ -1,0 +1,9 @@
+Added Component: Designator=AE1(ANT_1575AT_JOT-L)
+Add component (AddParameter): Name = "Digi-Key_Part_Number_1"; Value = "712-1003-2-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Part_Number_2"; Value = "712-1003-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Part_Number_3"; Value = "712-1003-6-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Johanson Technology"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GPS_ANT Pin=AE1-1
+Added Member To Class: ClassName=V1 Member=Component AE1 1575AT43A0040E

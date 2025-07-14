@@ -1,0 +1,3 @@
+Added Component: Designator=A1(LoRa_ANT_915_shorter_1_loop)
+Added Pin To Net: NetName=LoRa_ANT Pin=A1-ANT
+Added Member To Class: ClassName=V1 Member=Component A1 helical_antenna_shorter_1_loop

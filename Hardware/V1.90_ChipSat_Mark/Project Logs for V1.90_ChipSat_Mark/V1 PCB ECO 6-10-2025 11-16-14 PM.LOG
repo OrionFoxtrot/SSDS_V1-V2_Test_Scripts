@@ -1,0 +1,15 @@
+Added Component: Designator=JP1(1X08_OVAL)
+Add component (AddParameter): Name = "DeviceName"; Value = "LONGPADS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "CONN_06"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "SparkFun-Connectors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "CONN_06"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=RESET Pin=JP1-1
+Added Pin To Net: NetName=RX Pin=JP1-2
+Added Pin To Net: NetName=TX Pin=JP1-3
+Added Pin To Net: NetName=SCK Pin=JP1-4
+Added Pin To Net: NetName=MISO Pin=JP1-5
+Added Pin To Net: NetName=MOSI Pin=JP1-6
+Added Pin To Net: NetName=GND Pin=JP1-7
+Added Pin To Net: NetName=VCC Pin=JP1-8
+Added Member To Class: ClassName=V1 Member=Component JP1 FTDI

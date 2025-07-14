@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [V1.90.1_ChipSat_Mark.PrjPcb]
+   Generated File[V1.TXT]
+   Generated File[V1.DRL]
+   Generated File[V1.LDP]
+   Generated File[V1.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 11:14:11 PM On 6/19/2025

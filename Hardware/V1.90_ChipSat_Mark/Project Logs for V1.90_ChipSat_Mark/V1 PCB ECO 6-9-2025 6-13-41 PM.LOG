@@ -1,0 +1,29 @@
+Removed Pin From Net: NetName=SDA Pin=R11-1
+Removed Pin From Net: NetName=VCC Pin=R11-2
+Removed Pin From Net: NetName=SCL Pin=R12-1
+Removed Pin From Net: NetName=VCC Pin=R12-2
+Removed Pin From Net: NetName=VCC Pin=R13-2
+Removed Pin From Net: NetName=LoRa_RESET Pin=U2-10
+Removed Member From Class: ClassName=V1 Member=R11
+Removed Member From Class: ClassName=V1 Member=R12
+Change Footprint: Footprint Not Found RCL_C0805
+Change Footprint: Footprint Not Found RCL_C0805
+Added Component: Designator=R?(0402)
+Add component (AddParameter): Name = "DeviceName"; Value = "M0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "R-EU_"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "rcl"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "R-EU"; VariantName = "[No Variations]"
+Add component: Footprint Not Found XTAL320X150X75
+Add Pin To Net: Unknown Pin: Pin *1-ANT
+Added Pin To Net: NetName=GND Pin=R13-2
+Added Pin To Net: NetName=VCC Pin=R?-1
+Added Pin To Net: NetName=SS Pin=R?-2
+Added Pin To Net: NetName=LoRa_RESET Pin=U2-13
+Add Pin To Net: Unknown Pin: Pin Y2-1
+Add Pin To Net: Unknown Pin: Pin Y2-2
+Added Member To Class: ClassName=V1 Member=Component R? 1k6
+Add Class Member: Failed to add class member : Component Y2 9HT10-32.768KBZF-T
+Added Rule: Name=Schematic Supply Nets
+Added Rule: Name=Schematic Supply Nets_1
+Added Rule: Name=Schematic Supply Nets_2

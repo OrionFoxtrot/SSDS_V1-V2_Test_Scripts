@@ -1,0 +1,16 @@
+Change Component Footprint: Designator=SW1 Old Footprint=FP-JS102011SAQN-MFG New Footprint=FP-JS102011SAQN-MFG
+Change Component Footprint: Designator=P1 Old Footprint=HRS-U.FL-R-SMT-3_V New Footprint=HRS-U.FL-R-SMT-3_V
+Change Component Footprint: Designator=P2 Old Footprint=HRS-U.FL-R-SMT-3_V New Footprint=HRS-U.FL-R-SMT-3_V
+Change Component Footprint: Designator=P3 Old Footprint=HRS-U.FL-R-SMT-3_V New Footprint=HRS-U.FL-R-SMT-3_V
+Change Component Footprint: Designator=P4 Old Footprint=HRS-U.FL-R-SMT-3_V New Footprint=HRS-U.FL-R-SMT-3_V
+Change Component Footprint: Designator=P5 Old Footprint=HRS-U.FL-R-SMT-3_V New Footprint=HRS-U.FL-R-SMT-3_V
+Added Component: Designator=U6(FP-BME280-MFG)
+Added Pin To Net: NetName=GND Pin=U6-1
+Added Pin To Net: NetName=VCC Pin=U6-2
+Added Pin To Net: NetName=SDA Pin=U6-3
+Added Pin To Net: NetName=SCL Pin=U6-4
+Added Pin To Net: NetName=VCC Pin=U6-5
+Added Pin To Net: NetName=VCC Pin=U6-6
+Added Pin To Net: NetName=GND Pin=U6-7
+Added Pin To Net: NetName=VCC Pin=U6-8
+Added Member To Class: ClassName=V1 Member=Component U6 d58e2f6669bc67e6a2bc6a28610ca79

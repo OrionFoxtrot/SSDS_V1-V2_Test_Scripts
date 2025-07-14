@@ -1,0 +1,18 @@
+Change Component Footprint: Designator=SW1 Old Footprint=FP-JS102011SAQN-MFG New Footprint=FP-JS102011SAQN-MFG
+Change Component Footprint: Designator=P1 Old Footprint=HRS-U.FL-R-SMT-3_V New Footprint=HRS-U.FL-R-SMT-3_V
+Change Component Footprint: Designator=P2 Old Footprint=HRS-U.FL-R-SMT-3_V New Footprint=HRS-U.FL-R-SMT-3_V
+Change Component Footprint: Designator=P3 Old Footprint=HRS-U.FL-R-SMT-3_V New Footprint=HRS-U.FL-R-SMT-3_V
+Change Component Footprint: Designator=P4 Old Footprint=HRS-U.FL-R-SMT-3_V New Footprint=HRS-U.FL-R-SMT-3_V
+Change Component Footprint: Designator=P5 Old Footprint=HRS-U.FL-R-SMT-3_V New Footprint=HRS-U.FL-R-SMT-3_V
+Added Component: Designator=U4(L6920_L6920)
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "L6920"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "L6920"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "L6920"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VCC Pin=U4-1
+Added Pin To Net: NetName=VIN Pin=U4-5
+Added Pin To Net: NetName=GND Pin=U4-6
+Added Pin To Net: NetName=NetL1_1 Pin=U4-7
+Added Pin To Net: NetName=VCC Pin=U4-8
+Added Member To Class: ClassName=V1 Member=Component U4 L6920

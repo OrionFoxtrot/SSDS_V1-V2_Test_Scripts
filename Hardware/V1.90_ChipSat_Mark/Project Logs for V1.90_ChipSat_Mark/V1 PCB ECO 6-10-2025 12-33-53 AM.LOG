@@ -1,0 +1,4 @@
+Change Component Footprint: Designator=C7 Old Footprint=PI_NET_CAPACITOR_0402 New Footprint=PI_NET_CAPACITOR_0402NO_EXPANSION
+Added Pin To Net: NetName=GPS_ANT_Tuning Pin=C7-2
+Add Pin To Net: Unknown Pin: Pin C8-2
+Add Pin To Net: Unknown Pin: Pin C9-2
