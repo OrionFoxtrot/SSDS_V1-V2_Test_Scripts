@@ -1,0 +1,3 @@
+Power testing for the solar charger. Warning! using new INA260, -300mv offset applied to all voltages!
+
+simple_ps_on_off - power supply off, battery connected, load connected to LED + current drain resistors, ~20mins, then power supply on, load disconnected.  
