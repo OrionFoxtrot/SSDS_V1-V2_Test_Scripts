@@ -1,0 +1,10 @@
+Change Physical Footprint: Designator=C1 Old Footprint=PI_NET_CAPACITOR_0805 New Footprint=PI_NET_CAPACITOR_0805
+Change Physical Footprint: Designator=C2 Old Footprint=PI_NET_CAPACITOR_0805 New Footprint=PI_NET_CAPACITOR_0805
+Change Physical Footprint: Designator=C3 Old Footprint=PI_NET_CAPACITOR_0805 New Footprint=PI_NET_CAPACITOR_0805
+Change Physical Footprint: Designator=C4 Old Footprint=PI_NET_CAPACITOR_0805 New Footprint=PI_NET_CAPACITOR_0805
+Change Physical Footprint: Designator=C5 Old Footprint=PI_NET_CAPACITOR_0805 New Footprint=PI_NET_CAPACITOR_0805
+Change Physical Footprint: Designator=C6 Old Footprint=PI_NET_CAPACITOR_0805 New Footprint=PI_NET_CAPACITOR_0805
+Change Physical Footprint: Designator=R1 Old Footprint=0805Res New Footprint=0805Res
+Change Physical Footprint: Designator=R2 Old Footprint=0805Res New Footprint=0805Res
+Change Physical Footprint: Designator=R7 Old Footprint=0805Res New Footprint=0805Res
+Change Physical Footprint: Designator=U2 Old Footprint=GPS_MAX_10 New Footprint=GPS_MAX_10

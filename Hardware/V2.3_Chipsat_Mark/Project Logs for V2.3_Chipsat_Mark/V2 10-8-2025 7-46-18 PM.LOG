@@ -1,0 +1,42 @@
+Change Component Footprint: Designator=C7 Old Footprint=0402 New Footprint=0402CAP
+Change Component Footprint: Designator=C9 Old Footprint=0402 New Footprint=0402CAP
+Change Component Footprint: Designator=C10 Old Footprint=0402 New Footprint=0402CAP
+Change Component Footprint: Designator=C12 Old Footprint=0402 New Footprint=0402CAP
+Change Component Footprint: Designator=C13 Old Footprint=0402 New Footprint=0402CAP
+Change Component Footprint: Designator=C14 Old Footprint=0402 New Footprint=0402CAP
+Change Component Footprint: Designator=C16 Old Footprint=0402 New Footprint=0402CAP
+Change Component Footprint: Designator=C18 Old Footprint=0402 New Footprint=0402CAP
+Change Component Footprint: Designator=C8 Old Footprint=0805Cap New Footprint=0402CAP
+Change Component Footprint: Designator=C11 Old Footprint=0805Cap New Footprint=0402CAP
+Change Component Footprint: Designator=L1 Old Footprint=ASPI-0315FS_ASPI-0315FS - The_real_one New Footprint=Inductor_Boost_BQ25570
+Change Component Footprint: Designator=U4 Old Footprint=L6920DBTR New Footprint=BQ25570
+Change Component Footprint: Designator=R16 Old Footprint=RCL_M0805 New Footprint=0805Res
+Change Component Footprint: Designator=SW1 Old Footprint=Slide_Switch New Footprint=Micro_Trigger_Switch
+Change Component Comment: Designator=R5 Old Comment=0k New Comment=0
+Change Component Comment: Designator=R6 Old Comment=0k New Comment=0
+Change Component Comment: Designator=R4 Old Comment=1k6 New Comment=1.6k
+Change Component Comment: Designator=R3 Old Comment=1k New Comment=1.6k
+Change Component Comment: Designator=L1 Old Comment=10uH New Comment=22uH
+Change Component Comment: Designator=C8 Old Comment=47uF New Comment=4.7uF
+Change Component Comment: Designator=C11 Old Comment=47uF New Comment=10nF
+Change Component Comment: Designator=C18 Old Comment=100nF New Comment=10nF
+Change Component Comment: Designator=SW1 Old Comment=JS102011SAQN New Comment=D3SH-B1R
+Change Component Comment: Designator=U4 Old Comment=L6920 New Comment=BQ25570RGRR
+Change Pin Designator/Name:  Old Designator=C8-1 Old Name=1 New Designator =2 New Name=2
+Change Pin Designator/Name:  Old Designator=C11-1 Old Name=1 New Designator =2 New Name=2
+Change Pin Designator/Name:  Old Designator=C11-2 Old Name=2 New Designator =1 New Name=1
+Change Pin Designator/Name:  Old Designator=R4-1 Old Name=1 New Designator =2 New Name=2
+Change Pin Designator/Name:  Old Designator=R4-2 Old Name=2 New Designator =1 New Name=1
+Change Pin Designator/Name:  Old Designator=R10-1 Old Name=1 New Designator =2 New Name=2
+Change Pin Designator/Name:  Old Designator=R10-2 Old Name=2 New Designator =1 New Name=1
+Change Pin Designator/Name:  Old Designator=R11-1 Old Name=1 New Designator =2 New Name=2
+Change Pin Designator/Name:  Old Designator=R11-2 Old Name=2 New Designator =1 New Name=1
+Change Pin Designator/Name:  Old Designator=R13-1 Old Name=1 New Designator =2 New Name=2
+Change Pin Designator/Name:  Old Designator=R13-2 Old Name=2 New Designator =1 New Name=1
+Change Pin Designator/Name:  Old Designator=R14-1 Old Name=1 New Designator =2 New Name=2
+Change Pin Designator/Name:  Old Designator=R14-2 Old Name=2 New Designator =1 New Name=1
+Change Pin Designator/Name:  Old Designator=R15-1 Old Name=1 New Designator =2 New Name=2
+Change Pin Designator/Name:  Old Designator=R15-2 Old Name=2 New Designator =1 New Name=1
+Change Pin Designator/Name:  Old Designator=R18-1 Old Name=1 New Designator =2 New Name=2
+Change Pin Designator/Name:  Old Designator=R18-2 Old Name=2 New Designator =1 New Name=1
+Change Pin Designator/Name:  Old Designator=U4-6 Old Name=GND New Designator =FB New Name=1

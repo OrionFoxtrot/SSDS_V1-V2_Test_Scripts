@@ -1,0 +1,9 @@
+Added Component: Designator=PS2(ALTA_CELL_SAME_SIZED_FEET_NO_SILK)
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "ALTA_CELL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "ALTA_CELL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "ALTA_CELL"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetPS1_+ Pin=PS2-+
+Added Pin To Net: NetName=GND Pin=PS2--
+Added Member To Class: ClassName=V2.3 Member=Component PS2 ALTA_CELL

@@ -1,0 +1,3 @@
+Change Physical Footprint: Designator=* Old Footprint=GPS_ANT_NO_KO New Footprint=GPS_ANT_NO_KO
+Change Physical Footprint: Designator=A1 Old Footprint=TI_HELICAL New Footprint=TI_HELICAL
+Change Physical Footprint: Designator=U6 Old Footprint=SOIC_150MIL_WIN New Footprint=SOIC_150MIL_WIN

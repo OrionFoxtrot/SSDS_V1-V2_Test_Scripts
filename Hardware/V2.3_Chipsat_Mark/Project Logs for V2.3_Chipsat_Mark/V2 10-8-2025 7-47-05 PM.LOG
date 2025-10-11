@@ -1,0 +1,3 @@
+Remove Pin=U4-5 From Net=VIN
+Change Component Footprint: Designator=C14 Old Footprint=RCL_C0805 New Footprint=0402CAP
+Change Component Footprint: Designator=C16 Old Footprint=RCL_C0805 New Footprint=0402CAP

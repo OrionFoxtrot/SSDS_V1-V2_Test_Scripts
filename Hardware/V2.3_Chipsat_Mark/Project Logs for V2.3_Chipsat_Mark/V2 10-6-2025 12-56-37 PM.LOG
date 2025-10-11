@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=LoRa_ANT Pin=C2-1
+Removed Pin From Net: NetName=LoRa_ANT_Tuning Pin=C2-2
+Removed Pin From Net: NetName=GND Pin=C3-1
+Removed Pin From Net: NetName=LoRa_ANT Pin=C3-2
+Add Pin To Net: Unknown Pin: Pin C2-1
+Add Pin To Net: Unknown Pin: Pin C2-2
+Add Pin To Net: Unknown Pin: Pin C3-1
+Add Pin To Net: Unknown Pin: Pin C3-2

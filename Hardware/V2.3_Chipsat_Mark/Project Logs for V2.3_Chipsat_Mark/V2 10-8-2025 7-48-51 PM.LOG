@@ -1,0 +1,17 @@
+Add component: Footprint Not Found 0402CAP
+Add component: Footprint Not Found 0402CAP
+Add component: Footprint Not Found Inductor_Boost_BQ25570
+Add component: Footprint Not Found Micro_Trigger_Switch
+Add Pin To Net: Unknown Pin: Pin C8-2
+Add Pin To Net: Unknown Pin: Pin C8-2
+Add Pin To Net: Unknown Pin: Pin C11-1
+Add Pin To Net: Unknown Pin: Pin C11-2
+Add Pin To Net: Unknown Pin: Pin L1-1
+Add Pin To Net: Unknown Pin: Pin L1-2
+Add Pin To Net: Unknown Pin: Pin SW1-2
+Add Pin To Net: Unknown Pin: Pin SW1-3
+Added Pin To Net: NetName=VCC Pin=U4-1
+Add Class Member: Failed to add class member : Component C8 4.7uF
+Add Class Member: Failed to add class member : Component C11 10nF
+Add Class Member: Failed to add class member : Component L1 22uH
+Add Class Member: Failed to add class member : Component SW1 D3SH-B1R

@@ -1,0 +1,5 @@
+Change Component Designator: OldDesignator=50 NewDesignator=R16
+Added Component: Designator=*(ANT_1575AT_JOT-L)
+Added Pin To Net: NetName=GPS_ANT Pin=*-1
+Added Member To Class: ClassName=V2.3 Member=Component * GPS_ANT
+Added Member To Class: ClassName=V2.3 Member=Component PS2 ALTA_CELL

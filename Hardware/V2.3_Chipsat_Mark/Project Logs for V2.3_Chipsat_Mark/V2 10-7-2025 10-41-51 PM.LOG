@@ -1,0 +1,2 @@
+Change Component Footprint: Designator=R7 Old Footprint=RCL_M0805 New Footprint=0805Res
+Change Component Comment : Designator=R7 Old Comment=0k New Comment=0805Resistor

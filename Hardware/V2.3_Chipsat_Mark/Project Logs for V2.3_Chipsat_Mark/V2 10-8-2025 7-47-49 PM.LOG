@@ -1,0 +1,36 @@
+Add component: Footprint Not Found 0402CAP
+Add component: Footprint Not Found 0402CAP
+Add component: Footprint Not Found Inductor_Boost_BQ25570
+Added Component: Designator=R7(0805Res)
+Add component (AddParameter): Name = "DeviceName"; Value = "M0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "R-EU_"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "rcl"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "R-EU"; VariantName = "[No Variations]"
+Add component: Footprint Not Found Micro_Trigger_Switch
+Added Component: Designator=U4(BQ25570)
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "L6920"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "L6920"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "L6920"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin C8-2
+Add Pin To Net: Unknown Pin: Pin C8-2
+Add Pin To Net: Unknown Pin: Pin C11-1
+Add Pin To Net: Unknown Pin: Pin C11-2
+Add Pin To Net: Unknown Pin: Pin L1-1
+Add Pin To Net: Unknown Pin: Pin L1-2
+Added Pin To Net: NetName=NetPS1_+ Pin=R7-1
+Added Pin To Net: NetName=NetR7_2 Pin=R7-2
+Add Pin To Net: Unknown Pin: Pin SW1-2
+Add Pin To Net: Unknown Pin: Pin SW1-3
+Added Pin To Net: NetName=GND Pin=U4-1
+Added Pin To Net: NetName=VCC Pin=U4-1
+Added Pin To Net: NetName=NetL1_1 Pin=U4-7
+Added Pin To Net: NetName=VCC Pin=U4-8
+Add Class Member: Failed to add class member : Component C8 4.7uF
+Add Class Member: Failed to add class member : Component C11 10nF
+Add Class Member: Failed to add class member : Component L1 22uH
+Added Member To Class: ClassName=V2.3 Member=Component R7 0805Resistor
+Add Class Member: Failed to add class member : Component SW1 D3SH-B1R
+Added Member To Class: ClassName=V2.3 Member=Component U4 BQ25570RGRR

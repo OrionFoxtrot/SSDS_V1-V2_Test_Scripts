@@ -1,0 +1,5 @@
+Change Component Footprint: Designator=PS1 Old Footprint=ALTA_CELL_SAME_SIZED_FEET_NO_SILK New Footprint=ALTA_CELL_SAME_SIZED_FEET_SLIM
+Change Component Footprint: Designator=PS2 Old Footprint=ALTA_CELL_SAME_SIZED_FEET_NO_SILK New Footprint=ALTA_CELL_SAME_SIZED_FEET_SLIM
+Added Pin To Net: NetName=NetPS2_+ Pin=PS2-+
+Added Pin To Net: NetName=NetPS2_+ Pin=R7-1
+Added Net: Name=NetPS2_+

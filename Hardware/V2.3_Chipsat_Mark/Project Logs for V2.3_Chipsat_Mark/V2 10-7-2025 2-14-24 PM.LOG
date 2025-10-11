@@ -1,0 +1,11 @@
+Change Physical Footprint: Designator=D1 Old Footprint=FP-LTST-C191TBKT-MFG New Footprint=FP-LTST-C191TBKT-MFG
+Change Physical Footprint: Designator=D2 Old Footprint=FP-LTST-C191TBKT-MFG New Footprint=FP-LTST-C191TBKT-MFG
+Change Physical Footprint: Designator=P1 Old Footprint=HRS-U.FL-R-SMT-3_V New Footprint=HRS-U.FL-R-SMT-3_V
+Change Physical Footprint: Designator=P2 Old Footprint=HRS-U.FL-R-SMT-3_V New Footprint=HRS-U.FL-R-SMT-3_V
+Change Physical Footprint: Designator=P3 Old Footprint=HRS-U.FL-R-SMT-3_V New Footprint=HRS-U.FL-R-SMT-3_V
+Change Physical Footprint: Designator=P4 Old Footprint=HRS-U.FL-R-SMT-3_V New Footprint=HRS-U.FL-R-SMT-3_V
+Change Physical Footprint: Designator=P5 Old Footprint=HRS-U.FL-R-SMT-3_V New Footprint=HRS-U.FL-R-SMT-3_V
+Change Physical Footprint: Designator=SW1 Old Footprint=FP-JS102011SAQN-MFG New Footprint=FP-JS102011SAQN-MFG
+Change Physical Footprint: Designator=U1 Old Footprint=MODULE28P-1-25-12X12X2-5MM New Footprint=MODULE28P-1-25-12X12X2-5MM
+Change Physical Footprint: Designator=U2 Old Footprint=FP-MAX-M10S-00B-MFG - duplicate New Footprint=FP-MAX-M10S-00B-MFG - duplicate
+Change Physical Footprint: Designator=U5 Old Footprint=FP-BME280-MFG New Footprint=FP-BME280-MFG

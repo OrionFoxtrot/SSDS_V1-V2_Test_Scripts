@@ -1,0 +1,2 @@
+Change Component Footprint: Designator=* Old Footprint=ANT_1575AT_JOT-L New Footprint=GPS_ANT_NO_KO
+Change Component Comment : Designator=* Old Comment=GPS_ANT New Comment=GPS_ANT_NO_KO

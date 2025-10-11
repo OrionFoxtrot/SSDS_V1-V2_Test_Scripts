@@ -1,0 +1,3 @@
+Added Component: Designator=A1(TI_HELICAL)
+Added Pin To Net: NetName=LoRa_ANT Pin=A1-1
+Added Member To Class: ClassName=V2.3 Member=Component A1 TI_HELICAL

@@ -1,0 +1,10 @@
+Change Component Footprint: Designator=R1 Old Footprint=0402 New Footprint=RCL_M0805
+Change Component Footprint: Designator=R2 Old Footprint=0402 New Footprint=RCL_M0805
+Change Component Comment : Designator=R1 Old Comment=0k New Comment=0805Resistor
+Change Component Comment : Designator=R2 Old Comment=0k New Comment=0805Resistor
+Added Member To Class: ClassName=V2.3 Member=Component C1 C0402C223K8PACTU
+Added Member To Class: ClassName=V2.3 Member=Component C2 C0402C223K8PACTU
+Added Member To Class: ClassName=V2.3 Member=Component C3 C0402C223K8PACTU
+Added Member To Class: ClassName=V2.3 Member=Component C4 C0402C223K8PACTU
+Added Member To Class: ClassName=V2.3 Member=Component C5 C0402C223K8PACTU
+Added Member To Class: ClassName=V2.3 Member=Component C6 C0402C223K8PACTU
