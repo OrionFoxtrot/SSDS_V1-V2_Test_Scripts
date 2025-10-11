@@ -1,0 +1,90 @@
+Change Component Comment : Designator=C11 Old Comment=0.1uF New Comment=C0402C223K8PACTU
+Change Component Comment : Designator=C8 Old Comment=4.7uF New Comment=C0402C223K8PACTU
+Change Component Comment : Designator=C19 Old Comment=4.7uF New Comment=C0402C223K8PACTU
+Change Component Comment : Designator=C20 Old Comment=10nF New Comment=C0402C223K8PACTU
+Change Component Comment : Designator=C21 Old Comment=22uF New Comment=C0402C223K8PACTU
+Added Component: Designator=R19(0402)
+Add component (AddParameter): Name = "DeviceName"; Value = "M0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "R-EU_"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "rcl"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "R-EU"; VariantName = "[No Variations]"
+Added Component: Designator=R20(0402)
+Add component (AddParameter): Name = "DeviceName"; Value = "M0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "R-EU_"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "rcl"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "R-EU"; VariantName = "[No Variations]"
+Add component: Footprint Not Found 0805
+Added Component: Designator=R22(0402)
+Add component (AddParameter): Name = "DeviceName"; Value = "M0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "R-EU_"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "rcl"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "R-EU"; VariantName = "[No Variations]"
+Added Component: Designator=R23(0402)
+Add component (AddParameter): Name = "DeviceName"; Value = "M0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "R-EU_"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "rcl"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "R-EU"; VariantName = "[No Variations]"
+Added Component: Designator=R24(0402)
+Add component (AddParameter): Name = "DeviceName"; Value = "M0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "R-EU_"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "rcl"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "R-EU"; VariantName = "[No Variations]"
+Added Component: Designator=R25(0402)
+Add component (AddParameter): Name = "DeviceName"; Value = "M0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "R-EU_"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "rcl"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "R-EU"; VariantName = "[No Variations]"
+Added Component: Designator=R26(0402)
+Add component (AddParameter): Name = "DeviceName"; Value = "M0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "R-EU_"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "rcl"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "R-EU"; VariantName = "[No Variations]"
+Added Component: Designator=R27(0402)
+Add component (AddParameter): Name = "DeviceName"; Value = "M0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "R-EU_"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "rcl"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "R-EU"; VariantName = "[No Variations]"
+Added Component: Designator=R28(0402)
+Add component (AddParameter): Name = "DeviceName"; Value = "M0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "R-EU_"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "rcl"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "R-EU"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Solar_Positive Pin=R19-1
+Added Pin To Net: NetName=VOC_SAMP Pin=R19-2
+Added Pin To Net: NetName=VOC_SAMP Pin=R20-1
+Added Pin To Net: NetName=GND Pin=R20-2
+Add Pin To Net: Unknown Pin: Pin R21-1
+Add Pin To Net: Unknown Pin: Pin R21-2
+Added Pin To Net: NetName=VBAT_OV Pin=R22-1
+Added Pin To Net: NetName=VRDIV Pin=R22-2
+Added Pin To Net: NetName=OK_HYST Pin=R23-1
+Added Pin To Net: NetName=VRDIV Pin=R23-2
+Added Pin To Net: NetName=VOUT_SET Pin=R24-1
+Added Pin To Net: NetName=VRDIV Pin=R24-2
+Added Pin To Net: NetName=OK_PROG Pin=R25-1
+Added Pin To Net: NetName=OK_HYST Pin=R25-2
+Added Pin To Net: NetName=GND Pin=R26-1
+Added Pin To Net: NetName=VBAT_OV Pin=R26-2
+Added Pin To Net: NetName=GND Pin=R27-1
+Added Pin To Net: NetName=VOUT_SET Pin=R27-2
+Added Pin To Net: NetName=GND Pin=R28-1
+Added Pin To Net: NetName=OK_PROG Pin=R28-2
+Added Member To Class: ClassName=V2.3SB Member=Component R19 0402Resistor
+Added Member To Class: ClassName=V2.3SB Member=Component R20 0402Resistor
+Add Class Member: Failed to add class member : Component R21 k
+Added Member To Class: ClassName=V2.3SB Member=Component R22 0402Resistor
+Added Member To Class: ClassName=V2.3SB Member=Component R23 0402Resistor
+Added Member To Class: ClassName=V2.3SB Member=Component R24 0402Resistor
+Added Member To Class: ClassName=V2.3SB Member=Component R25 0402Resistor
+Added Member To Class: ClassName=V2.3SB Member=Component R26 0402Resistor
+Added Member To Class: ClassName=V2.3SB Member=Component R27 0402Resistor
+Added Member To Class: ClassName=V2.3SB Member=Component R28 0402Resistor

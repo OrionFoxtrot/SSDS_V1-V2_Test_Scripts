@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=GND Pin=R21-1
+Removed Pin From Net: NetName=EN Pin=R21-2
+Removed Member From Class: ClassName=V2.3SB Member=R21
+Added Component: Designator=SW1(Micro_Trigger_Switch)
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2025 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Omron"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "D3SH-B1R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Type"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=EN Pin=SW1-1
+Added Pin To Net: NetName=GND Pin=SW1-2
+Added Member To Class: ClassName=V2.3SB Member=Component SW1 D3SH-B1R

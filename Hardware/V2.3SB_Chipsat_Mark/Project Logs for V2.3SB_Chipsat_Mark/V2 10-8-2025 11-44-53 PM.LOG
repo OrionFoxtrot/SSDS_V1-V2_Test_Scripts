@@ -1,0 +1,11 @@
+Change Physical Footprint: Designator=* Old Footprint=GPS_ANT_NO_KO New Footprint=GPS_ANT_NO_KO
+Change Physical Footprint: Designator=C18 Old Footprint=0402CAP New Footprint=0402CAP
+Change Physical Footprint: Designator=L1 Old Footprint=Inductor_Boost_BQ25570 New Footprint=Inductor_Boost_BQ25570
+Change Physical Footprint: Designator=P4 Old Footprint=UFL New Footprint=UFL
+Change Physical Footprint: Designator=P5 Old Footprint=UFL New Footprint=UFL
+Change Physical Footprint: Designator=U2 Old Footprint=GPS_MAX_10 New Footprint=GPS_MAX_10
+Change Physical Footprint: Designator=U3 Old Footprint=QFN28_BNO086_CEV New Footprint=QFN28_BNO086_CEV
+Change Physical Footprint: Designator=U4 Old Footprint=BQ25570 New Footprint=BQ25570
+Change Physical Footprint: Designator=U5 Old Footprint=FP-BME280-MFG New Footprint=FP-BME280-MFG
+Change Physical Footprint: Designator=U6 Old Footprint=SOIC_150MIL_WIN New Footprint=SOIC_150MIL_WIN
+Change Physical Footprint: Designator=Y1 Old Footprint=IMU_CLK_XTAL320X150X75 New Footprint=IMU_CLK_XTAL320X150X75

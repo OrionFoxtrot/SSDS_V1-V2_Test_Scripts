@@ -1,0 +1,9 @@
+Added Component: Designator=R21(0402)
+Add component (AddParameter): Name = "DeviceName"; Value = "M0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "R-EU_"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "rcl"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "R-EU"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=R21-1
+Added Pin To Net: NetName=EN Pin=R21-2
+Added Member To Class: ClassName=V2.3SB Member=Component R21 0402Resistor

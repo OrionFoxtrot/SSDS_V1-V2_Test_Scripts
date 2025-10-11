@@ -1,0 +1,9 @@
+Change Component Footprint: Designator=C8 Old Footprint=PI_NET_CAPACITOR_0402 New Footprint=0402CAP
+Change Component Footprint: Designator=C11 Old Footprint=PI_NET_CAPACITOR_0402 New Footprint=0402CAP
+Change Component Footprint: Designator=C19 Old Footprint=PI_NET_CAPACITOR_0402 New Footprint=0402CAP
+Change Component Footprint: Designator=C20 Old Footprint=PI_NET_CAPACITOR_0402 New Footprint=0402CAP
+Change Component Footprint: Designator=C21 Old Footprint=PI_NET_CAPACITOR_0402 New Footprint=0402CAP
+Change Component Comment : Designator=C8 Old Comment=C0402C223K8PACTU New Comment=4.7uF
+Change Component Comment : Designator=C19 Old Comment=C0402C223K8PACTU New Comment=4.7uF
+Change Component Comment : Designator=C11 Old Comment=C0402C223K8PACTU New Comment=10nF
+Change Component Comment : Designator=C20 Old Comment=C0402C223K8PACTU New Comment=10nF

@@ -1,0 +1,32 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: V2.3SB.GBR   10/10/2025  7:09:45 PM
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.gbr                Top Overlay                             
+.gbr                Top Paste                               
+.gbr                Top Solder                              
+.gbr                Top Layer                               
+.gbr                Bottom Layer                            
+.gbr                Bottom Solder                           
+.gbr                Bottom Paste                            
+.gbr                Bottom Overlay                          
+.gbr                Top 3D Body                             
+.gbr                Top Courtyard                           
+.gbr                Top Assembly                            
+.gbr                Mechanical 13                           
+.gbr                Mechanical 15                           
+.gbr                Top Component Center                    
+.gbr                Bottom Assembly                         
+.gbr                Bottom Courtyard                        
+.gbr                Bottom Component Center                 
+.gbr                Keep-Out Layer                          
+.gbr                Top Pad Master                          
+.gbr                Bottom Pad Master                       
+.gbr                Drill Drawing                           
+.gbr                Drill Guide                             
+.gbr                Profile                                 
+------------------------------------------------------------------------------------------

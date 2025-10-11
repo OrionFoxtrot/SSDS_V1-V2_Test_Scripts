@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=Solar_Positive Pin=R21-1
+Removed Pin From Net: NetName=EN Pin=SW?-2
+Removed Pin From Net: NetName=GND Pin=SW?-3
+Removed Member From Class: ClassName=V2.3SB Member=SW?
+Change Component Comment : Designator=R21 Old Comment=1M New Comment=0402Resistor
+Added Pin To Net: NetName=GND Pin=R21-1
+Added Pin To Net: NetName=EN Pin=R21-2

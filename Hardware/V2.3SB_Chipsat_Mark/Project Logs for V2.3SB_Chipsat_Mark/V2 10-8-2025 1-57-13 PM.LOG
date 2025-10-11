@@ -1,0 +1,50 @@
+Removed Pin From Net: NetName=GND Pin=R21-1
+Removed Pin From Net: NetName=EN Pin=R21-2
+Change Component Comment : Designator=R21 Old Comment=0402Resistor New Comment=1M
+Change Component Comment : Designator=R19 Old Comment=0402Resistor New Comment=4.02M
+Change Component Comment : Designator=R27 Old Comment=0402Resistor New Comment=4.87M
+Change Component Comment : Designator=R23 Old Comment=0402Resistor New Comment=5.11M
+Change Component Comment : Designator=R28 Old Comment=0402Resistor New Comment=5.11M
+Change Component Comment : Designator=R26 Old Comment=0402Resistor New Comment=5.62M
+Change Component Comment : Designator=R20 Old Comment=0402Resistor New Comment=6.04M
+Change Component Comment : Designator=R25 Old Comment=0402Resistor New Comment=6.81M
+Change Component Comment : Designator=R22 Old Comment=0402Resistor New Comment=7.32M
+Change Component Comment : Designator=R24 Old Comment=0402Resistor New Comment=8.25M
+Change Component Comment : Designator=C21 Old Comment=C0402C223K8PACTU New Comment=22uF
+Added Component: Designator=SW?(Slide_Switch)
+Add component (AddParameter): Name = "Actuator Length"; Value = "2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Actuator Material"; Value = "Nylon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Actuator Type"; Value = "Standard"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Current Rating"; Value = "300mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Copper Alloy"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Silver"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Resistance"; Value = "70mR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "300mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Electrical Life"; Value = "5000Cycles"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Housing Material"; Value = "Nylon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Illumination Type"; Value = "Non-Illuminated"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "9mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Current Rating"; Value = "300mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Voltage Rating (DC)"; Value = "6V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Right Angle"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Switch Function"; Value = "On-On"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Switch Travel"; Value = "2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "Gull Wing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Throw Configuration"; Value = "SPDT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "6V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Solar_Positive Pin=R21-1
+Added Pin To Net: NetName=EN Pin=SW?-2
+Added Pin To Net: NetName=GND Pin=SW?-3
+Added Pin To Net: NetName=NetR21_2 Pin=R21-2
+Added Pin To Net: NetName=NetR21_2 Pin=SW?-1
+Added Net: Name=NetR21_2
+Added Member To Class: ClassName=V2.3SB Member=Component SW? JS102011SAQN

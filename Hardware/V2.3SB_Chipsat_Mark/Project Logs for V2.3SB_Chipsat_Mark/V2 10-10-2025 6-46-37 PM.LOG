@@ -1,0 +1,5 @@
+Change Physical Footprint: Designator=R1 Old Footprint=0805Res New Footprint=0805Res
+Change Physical Footprint: Designator=R2 Old Footprint=0805Res New Footprint=0805Res
+Change Physical Footprint: Designator=R7 Old Footprint=0805Res New Footprint=0805Res
+Change Physical Footprint: Designator=R16 Old Footprint=0805Res New Footprint=0805Res
+Change Physical Footprint: Designator=U2 Old Footprint=GPS_MAX_10 New Footprint=GPS_MAX_10

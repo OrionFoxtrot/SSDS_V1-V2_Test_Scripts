@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [V2.3SB_Chipsat_Mark.PrjPcb]
+   Generated File[V2.3SB.TXT]
+   Generated File[V2.3SB.DRL]
+   Generated File[V2.3SB.LDP]
+   Generated File[V2.3SB.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 7:09:56 PM On 10/10/2025

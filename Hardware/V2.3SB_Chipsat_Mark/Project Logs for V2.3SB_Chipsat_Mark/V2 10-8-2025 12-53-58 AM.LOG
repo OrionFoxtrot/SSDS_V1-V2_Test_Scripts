@@ -1,0 +1,27 @@
+Added Component: Designator=L1(Inductor_Boost_BQ25570)
+Add component (AddParameter): Name = "Ambient Temperature Range High"; Value = "95°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ambient Temperature Range Low"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Composition"; Value = "Wirewound"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Core Material"; Value = "Ferrite"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "510mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DC Resistance (DCR)"; Value = "410mO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.65mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Inductance"; Value = "22µH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Inductance Tolerance"; Value = "30%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "3.8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NexarPartId"; Value = "22866169"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape & Reel (TR)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RMS Current (Irms)"; Value = "510mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Saturation Current"; Value = "360mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Self Resonant Frequency"; Value = "26MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series Resistance"; Value = "450mO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Test Frequency"; Value = "100kHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "30%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "3.8mm"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Solar_Positive Pin=L1-1
+Added Pin To Net: NetName=LBOOST Pin=L1-2
+Added Member To Class: ClassName=V2.3SB Member=Component L1 22uH

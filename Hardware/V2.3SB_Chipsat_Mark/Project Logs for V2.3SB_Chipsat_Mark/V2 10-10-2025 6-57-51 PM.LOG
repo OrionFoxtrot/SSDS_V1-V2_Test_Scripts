@@ -1,0 +1,8 @@
+Change Component Footprint: Designator=SW1 Old Footprint=Micro_Trigger_Switch New Footprint=Micro_Trigger_Switch_Long_D3SH-B1R1
+Change Component Comment : Designator=SW1 Old Comment=D3SH-B1R New Comment=D3SH-B1R1
+Change component parameters: Designator = "SW1" ("SW1"); Footprint = "Micro_Trigger_Switch"; UniqueID = "\JIFJCXCQ" ("\JIFJCXCQ")
+Change component parameters (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2025 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Omron"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "D3SH-B1R1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Type"; VariantName = "[No Variations]"

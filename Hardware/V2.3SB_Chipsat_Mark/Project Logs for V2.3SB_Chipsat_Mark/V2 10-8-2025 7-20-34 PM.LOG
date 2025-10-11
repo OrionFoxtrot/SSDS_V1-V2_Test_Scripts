@@ -1,0 +1,5 @@
+Change Physical Footprint: Designator=L1 Old Footprint=Inductor_Boost_BQ25570 New Footprint=Inductor_Boost_BQ25570
+Change Physical Footprint: Designator=L2 Old Footprint=Inductor_Buck_BQ25570 New Footprint=Inductor_Buck_BQ25570
+Change Physical Footprint: Designator=R10 Old Footprint=0402 New Footprint=0402
+Change Physical Footprint: Designator=R14 Old Footprint=0402 New Footprint=0402
+Change Physical Footprint: Designator=R20 Old Footprint=0402 New Footprint=0402
