@@ -1,4 +1,4 @@
- /*
+/*
   RadioLib RF69 Blocking Transmit Example
 
   This example transmits packets using RF69 FSK radio module.
@@ -37,36 +37,41 @@ void manualRFM69Reset() {
   digitalWrite(RFM_RST, LOW);
   delay(10);
 
-  digitalWrite(RFM_RST, HIGH);   // active high reset
+  digitalWrite(RFM_RST, HIGH);  // active high reset
   delay(10);
 
-  digitalWrite(RFM_RST, LOW);    // release reset
+  digitalWrite(RFM_RST, LOW);  // release reset
   delay(100);
 }
 void setup() {
   Serial.begin(115200);
+  while (!Serial) {
+    ;
+  }
+  delay(500);
 
   pinMode(blinkypin, OUTPUT);
-  digitalWrite(blinkypin, LOW);    // keep translator disabled first
+  digitalWrite(blinkypin, LOW);  // keep translator disabled first
 
   pinMode(RFM_CS, OUTPUT);
-  digitalWrite(RFM_CS, HIGH);   // deselect radio
+  digitalWrite(RFM_CS, HIGH);  // deselect radio
 
   pinMode(RFM_RST, OUTPUT);
-  digitalWrite(RFM_RST, LOW);   // do not hold radio in reset
+  digitalWrite(RFM_RST, LOW);  // do not hold radio in reset
 
-  delay(500);                   // let rails settle
+  delay(500);  // let rails settle
 
-  digitalWrite(blinkypin, HIGH);   // enable translator only after pins are sane
+  digitalWrite(blinkypin, HIGH);  // enable translator only after pins are sane
   delay(500);
 
   manualRFM69Reset();
   // initialize RF69 with default settings
   Serial.println(F("[RF69] Initializing ... "));
 
-  
+
   int state = radio.begin(915.0);
-  while(state != RADIOLIB_ERR_NONE){
+  // Serial.println("After Init, Reading Codes:");
+  while (state != RADIOLIB_ERR_NONE) {
     Serial.print(F("failed, code "));
     Serial.println(state);
     Serial.println("Trying to initialize again");
@@ -82,7 +87,8 @@ void setup() {
 
 
   Serial.print(F("[RF69] Setting high power module ... "));
-  state = radio.setOutputPower(20, true);
+  state = radio.setOutputPower(2, true);
+  // radio.setOutputPower() // like 2 to 20 or sm
   if (state == RADIOLIB_ERR_NONE) {
     Serial.println(F("success!"));
   } else {
@@ -91,7 +97,7 @@ void setup() {
     while (true) { delay(10); }
   }
 
-  // delay(9999999999999999999);
+  delay(9999999999999999999);
 }
 
 // counter to keep track of transmitted packets

@@ -1,11 +1,11 @@
 // include the library
 #include <RadioLib.h>
 #include <Wire.h>
-#include "SparkFun_BNO08x_Arduino_Library.h" // CTRL+Click here to get the library: http://librarymanager/All#SparkFun_BNO08x
+#include "SparkFun_BNO08x_Arduino_Library.h"  // CTRL+Click here to get the library: http://librarymanager/All#SparkFun_BNO08x
 #include <SPI.h>
 #include <Adafruit_Sensor.h>
 #include <Adafruit_BME280.h>
-
+// Old RadioLib is 7.1.2
 
 
 #define Print_rxPin PB7
@@ -14,7 +14,7 @@
 
 #include <SoftwareSerial.h>
 
-HardwareSerial soft_tx_rx =  HardwareSerial(Print_rxPin, Print_txPin);
+HardwareSerial soft_tx_rx = HardwareSerial(Print_rxPin, Print_txPin);
 
 // no need to configure pins, signals are routed to the radio internally
 STM32WLx radio = new STM32WLx_Module();
@@ -23,17 +23,19 @@ STM32WLx radio = new STM32WLx_Module();
 // NOTE: other boards may be different!
 //       Some boards may not have either LP or HP.
 //       For those, do not set the LP/HP entry in the table.
-static const uint32_t rfswitch_pins[] =
-                         {PC_3,  PC_4,  PC_5, RADIOLIB_NC, RADIOLIB_NC};
+// static const uint32_t rfswitch_pins[] =
+//                          {PC_3,  PC_4,  PC_5, RADIOLIB_NC, RADIOLIB_NC};
 
-
+static const uint32_t rfswitch_pins[] = {
+  PA4, PA5, RADIOLIB_NC, RADIOLIB_NC, RADIOLIB_NC
+};
 
 // EDIT ME
 
 static const Module::RfSwitchMode_t rfswitch_table[] = {
-  {STM32WLx::MODE_IDLE, {LOW, LOW}},
-  {STM32WLx::MODE_RX, {HIGH, LOW}},
-  {STM32WLx::MODE_TX_HP, {LOW, HIGH}}, // for LoRa-E5 mini (HP)
+  { STM32WLx::MODE_IDLE, { LOW, LOW } },
+  { STM32WLx::MODE_RX, { HIGH, LOW } },
+  { STM32WLx::MODE_TX_HP, { LOW, HIGH } },  // for LoRa-E5 mini (HP)
   //{STM32WLx::MODE_TX_LP, {HIGH, HIGH}}, // for LoRa-E5-LE mini (LP)
   END_OF_MODE_TABLE,
 };
@@ -65,7 +67,7 @@ void setup() {
   soft_tx_rx.begin(115200);
 
   pinMode(PA9, OUTPUT);
-  digitalWrite(PA9, LOW);   // turn the LED off by making the voltage LOW
+  digitalWrite(PA9, LOW);  // turn the LED off by making the voltage LOW
 
 
   // set RF switch control configuration
@@ -74,12 +76,13 @@ void setup() {
 
   // initialize STM32WL with default settings, except frequency
   soft_tx_rx.print(F("[STM32WL] Initializing ... "));
-  int state = radio.begin(915.0);
-  
+  // int state = radio.begin(915.0);
+  int state = radio.beginLRFHSS(915.0); //Transmiting LRFHSS
+
 
   // EDIT ME:
   //radio.setOutputPower(14); // FOR LP = 14(?)
-  radio.setOutputPower(22); // For HP = 20-22
+  radio.setOutputPower(20);  // For HP = 20-22
 
 
   if (state == RADIOLIB_ERR_NONE) {
@@ -88,17 +91,22 @@ void setup() {
     soft_tx_rx.print(F("failed, code "));
     soft_tx_rx.println(state);
     while (true) { delay(10); }
+  }
+  state = radio.setCurrentLimit(140.0);
+  if (state != RADIOLIB_ERR_NONE) {
+    soft_tx_rx.print("Current limit failed: ");
+    soft_tx_rx.println(state);
   }
 
   // set appropriate TCXO voltage for Nucleo WL55JC1
-  state = radio.setTCXO(1.7);
-  if (state == RADIOLIB_ERR_NONE) {
-    soft_tx_rx.println(F("success!"));
-  } else {
-    soft_tx_rx.print(F("failed, code "));
-    soft_tx_rx.println(state);
-    while (true) { delay(10); }
-  }
+//   state = radio.setTCXO(1.7);
+//   if (state == RADIOLIB_ERR_NONE) {
+//     soft_tx_rx.println(F("success!"));
+//   } else {
+//     soft_tx_rx.print(F("failed, code "));
+//     soft_tx_rx.println(state);
+//     while (true) { delay(10); }
+//   }
 }
 
 
@@ -112,8 +120,8 @@ void loop() {
   // you can transmit C-string or Arduino string up to
   // 256 characters long
 
-  String str = "Counter: " + String(count++) + // Dummy String
-             ", Voltage: 3.81 V, Battery: 32.6 %, Temp: 34";
+  String str = "Counter: " + String(count++) +  // Dummy String
+               ", Voltage: 3.81 V, Battery: 32.6 %, Temp: 34";
   // String str = String(count++);
   int state = radio.transmit(str);
 
@@ -129,7 +137,7 @@ void loop() {
 
     // print measured data rate
     soft_tx_rx.print(F("[STM32WL] Datarate:\t"));
-    soft_tx_rx.print(radio.getDataRate());
+    // soft_tx_rx.print(radio.getDataRate());
     soft_tx_rx.println(F(" bps"));
 
   } else if (state == RADIOLIB_ERR_PACKET_TOO_LONG) {
@@ -144,15 +152,13 @@ void loop() {
     // some other error occurred
     soft_tx_rx.print(F("failed, code "));
     soft_tx_rx.println(state);
-
   }
 
   // wait for a second before transmitting again
   soft_tx_rx.print("Looping...");
   digitalWrite(PA9, HIGH);  // turn the LED on (HIGH is the voltage level)
-  delay(500);                      // wait for a second
+  delay(500);               // wait for a second
   digitalWrite(PA9, LOW);   // turn the LED off by making the voltage LOW
   // delay(1.8e+6);
   delay(500);
 }
-

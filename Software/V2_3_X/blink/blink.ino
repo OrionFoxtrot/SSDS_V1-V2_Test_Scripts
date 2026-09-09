@@ -39,7 +39,7 @@ void setup() {
 
 
   soft_tx_rx.begin(115200);
-  soft_tx_rx.print("Blinky Pin #: ");
+  soft_tx_rx.print("AdsjkjbueburbBlinky Pin #: ");
   soft_tx_rx.println(blinkypin);
 
   soft_tx_rx.print("APinInQuestion #:");
